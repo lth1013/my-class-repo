@@ -42,7 +42,7 @@ section {
 }
 
 /* Sets display of all elements with class selector to inline */
-#navigation {
+.display-inline {
   display: inline;
 }
 

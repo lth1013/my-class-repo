@@ -45,6 +45,18 @@
 | [14-Stu_Typography](activities/14-Stu_Typography)  	| Typography activity |
 | [15-Ins_Pseudo-Classes](activities/15-Ins_Pseudo-Classes)  	| Introduction to Pseudo Classes |
 | [16-Stu_Pseudo-Classes](activities/16-Stu_Pseudo-Classes)  	| Pseudo Classes activity |
+| [17-Ins_Pseudo-Elements](activities/17-Ins_Pseudo-Elements)  	| Introduction to Pseudo elements |
+| [18-Stu_Pseudo-Elements](activities/18-Stu_Pseudo-Elements)  	| Pseudo elements activity |
+| [19-Ins_Form-Styles](activities/19-Ins_Form-Styles)  	| Introduction to Form Styles |
+| [20-Stu_Custom-Forms](activities/20-Stu_Custom-Forms)  	| Custom Forms |
+| [21-Ins_Wireframing](activities/21-Ins_Wireframing)  	| Introduction to wireframing |
+| [22-Stu_Wireframing](activities/22-Stu_Wireframing)  	| Wireframing activity |
+| [23-Ins_CSS-Selectors](activities/23-Ins_CSS-Selectors)  	| Introduction to CSS Selectors |
+| [24-Stu_CSS-Selectors](activities/24-Stu_CSS-Selectors)  	| CSS Selectors activity |
+| [25-Ins_CSS-Variables](activities/25-Ins_CSS-Variables)  	| Introduction to CSS Variables |
+| [26-Stu_CSS-Variables](activities/26-Stu_CSS-Variables)  	| CSS Variables activity |
+| [27-Evr_Git-Pull-Conflict](activities/27-Evr_Git-Pull-Conflict)  	| Git pull Conflict |
+| [28-Stu_Mini-Project](activities/28-Stu_Mini-Project)  	| CSS Snippet Cheatsheet |
 
 
 
