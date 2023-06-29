@@ -44,4 +44,18 @@
 |[12-Stu_Arrays](activities/12-Stu_Arrays)| Arrays activity|
 |[13-Ins_Iteration](activities/13-Ins_Iteration)| Introduction to `for` loops |
 |[14-Stu_Iteration](activities/14-Stu_Iteration) | `for` loop activity |
+|[15-Ins_Functions](activities/15-Ins_Functions)| Introduction to functions |
+|[16-Stu_Functions](activities/16-Stu_Functions)| Functions activity |
+|[17-Ins_Scope](activities/17-Ins_Scope)| Introduction to scope |
+|[18-Stu_Scope](activities/18-Stu_Scope)| Scope activity |
+|[19-Ins_Methods](activities/19-Ins_Methods)| Introduction to methods |
+|[20-Stu_Methods](activities/20-Stu_Methods)| Methods activity |
+|[21-Ins_Objects](activities/21-Ins_Objects)| Introduction to objects |
+|[22-Stu_Objects](activities/22-Stu_Objects)| Object activity |
+|[23-Ins_Object-Methods](activities/23-Ins_Object-Methods)| Introduction to object methods |
+|[24-Stu_Object-Methods](activities/24-Stu_Object-Methods)| Object methods activity |
+|[25-Ins_Object-This](activities/25-Ins_Object-This)| Introduction to `this` |
+|[26-Stu_Object-This](activities/26-Stu_Object-This)| `this` activity |
+|[27-interview-series-pre-work](activities/27-interview-series-pre-work)| Pseudocode - This is the way |
+|[28-Stu_Mini-Project](activities/28-Stu_Mini-Project)| Javscript Mini Project |
 
