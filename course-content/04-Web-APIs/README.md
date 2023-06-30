@@ -36,6 +36,17 @@
 |[06-Stu_Setting-Attributes](activities/06-Stu_Setting-Attributes)| Setting attributes activity |
 |[07-Ins_Create-Append](activities/07-Ins_Create-Append)| Introduction to create and append |
 |[08-Stu_Create-Append](activities/08-Stu_Create-Append)| Create and append activity |
-
+|[09-Ins_Timers-Intervals](activities/09-Ins_Timers-Intervals)| Introduction to Intervals |
+|[10-Stu_Timers-Intervals](activities/10-Stu_Timers-Intervals)| Intervals activity |
+|[11-Ins_Event-Listener](activities/11-Ins_Event-Listener)| Introduction to adding event listeners |
+|[12-Stu_Event-Listener](activities/12-Stu_Event-Listener)| Event listeners activity |
+|[13-Ins_Preventing-Default](activities/13-Ins_Preventing-Default)| Introduction to preventing default |
+|[14-Stu_Preventing-Default](activities/14-Stu_Preventing-Default)| Preventing Default activity |
+|[15-Ins_Keyboard-Events](activities/15-Ins_Keyboard-Events)| Introduction to keyboard events |
+|[16-Stu_Keyboard-Events](activities/16-Stu_Keyboard-Events)| Keyboard events activity |
+|[17-Ins_Event-Bubbling](activities/17-Ins_Event-Bubbling)| Introduction to event bubbling |
+|[18-Stu_Event-Bubbling](activities/18-Stu_Event-Bubbling)| Event bubbling activity |
+|[19-Ins_Data-Attributes](activities/19-Ins_Data-Attributes)| Introduction to data attributes |
+|[20-Stu_Data-Attributes](activities/20-Stu_Data-Attributes)| Data Attributes activity |
 
 

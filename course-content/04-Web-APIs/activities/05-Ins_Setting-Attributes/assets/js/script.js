@@ -6,8 +6,8 @@
 
 // Access element by ID using .querySelector()
 //We access the first element of a selector using querySelector(). This method returns a single element. See the following code for an example:
- var changeP = document.querySelector("#change2");
-//  var changeP = document.getElementById("change2");
+//  var changeP = document.querySelector("#change2");
+ var changeP = document.getElementById("change2");
 
 // Sets first pTags to have a font-size of 40px
 //We can also use setAttribute() to set the style of the image, as follows:

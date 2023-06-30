@@ -17,7 +17,7 @@ var firstChildUl = document.body.children[1].children[0];
 // var firstChildUl = document.getElementById("first-child-ul");
 console.log(firstChildUl);
 // var firstChildUl = document.body.children[1].children[0].style.color = "#e97451";
-document.body.children[1].children[0].style.color = "#e97451";
+// document.body.children[1].children[0].style.color = "#e97451";
 
 
 var secondChildUl = document.body.children[1].children[1]
