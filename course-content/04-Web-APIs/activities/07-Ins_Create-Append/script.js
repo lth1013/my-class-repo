@@ -27,8 +27,8 @@ if (nextTag === true) {
   } else {
     var secondTag = document.createElement(secondTagName);
     secondTag.textContent = "This is our second tag via prompts, it's a " + secondTagName + ".";
-    document.body.appendChild(secondTag);
-    // document.body.prepend(secondTag);
+    // document.body.appendChild(secondTag);
+    document.body.prepend(secondTag);
   }
 }
 

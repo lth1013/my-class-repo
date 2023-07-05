@@ -48,5 +48,15 @@
 |[18-Stu_Event-Bubbling](activities/18-Stu_Event-Bubbling)| Event bubbling activity |
 |[19-Ins_Data-Attributes](activities/19-Ins_Data-Attributes)| Introduction to data attributes |
 |[20-Stu_Data-Attributes](activities/20-Stu_Data-Attributes)| Data Attributes activity |
+|[21-Ins_Local-Storage](activities/21-Ins_Local-Storage)| Introduction to local storage |
+|[22-Stu_Local-Storage](activities/22-Stu_Local-Storage)| Local Storage activity |
+|[23-Ins_Local-Storage-Objects](activities/23-Ins_Local-Storage-Objects)| Store objects into local storage - Introduction |
+|[24-Stu_Local-Storage-Objects](activities/24-Stu_Local-Storage-Objects)| Store abjects into local storage - Activity |
+|[25-Ins_Local-Storage-Todos](activities/25-Ins_Local-Storage-Todos)| Todo List - Application |
+|[26-Stu_Local-Storage-Todos](activities/26-Stu_Local-Storage-Todos)| Todo List - Application |
+|[27-Evr_Git-Guide](activities/27-Evr_Git-Guide)| Git-Guide |
+|[28-Evr_Git-Branch](activities/28-Evr_Git-Branch)| Git Branch |
+|[29-Evr_Git-Pull-Request](activities/29-Evr_Git-Pull-Request)| Git Pull Request |
+|[30-Stu_Mini-Project](activities/30-Stu_Mini-Project)| Word Guess |
 
 

@@ -28,6 +28,7 @@ textAreaEl.addEventListener("keydown", function(event) {
   //Keyboard events have two commonly used properties. The key property returns the value of the key pressed. The code property returns the key's code. We use event.key to access the value of the pressed key
   var key = event.key.toLowerCase();
   var alphabetNumericCharacters = "abcdefghijklmnopqrstuvwxyz0123456789 ".split("");
+  // ["a","b","c","d",]
   if (alphabetNumericCharacters.includes(key)) {
     elements.forEach(function(element) {
       //We use the textContent property to set the content of an element to the pressed key's value

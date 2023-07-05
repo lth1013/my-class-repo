@@ -5,16 +5,16 @@ var button = document.querySelector(".button");
 
 // When we click on the button, the changeBlue function fires and the button turns blue
 // To stop this from happening, we use event.stopPropagation(). When we add the method at the top of each function that change the color, the event bubbling stops.
-function changeBlue(event) {
-  event.stopPropagation();
-  event.currentTarget.setAttribute(
+function changeBlue(farley) {
+  // farley.stopPropagation();
+  farley.currentTarget.setAttribute(
     "style",
     "background-color: blue"
   );
 }
 
 function changePurple(event) {
-  event.stopPropagation();
+  // event.stopPropagation();
   event.currentTarget.setAttribute(
     "style",
     "background-color: #601A4A"
@@ -22,7 +22,7 @@ function changePurple(event) {
 }
 
 function changeOrange(event) {
-  event.stopPropagation();
+  // event.stopPropagation();
   event.currentTarget.setAttribute(
     "style",
     "background-color: #EE442F; color: white;"
