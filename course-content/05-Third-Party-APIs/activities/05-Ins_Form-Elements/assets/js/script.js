@@ -25,13 +25,14 @@ function handleFormSubmit(event) {
   
   // Loop through checked options to store in array
   //Because there can be more than one checked item, we need to select the checked elements and store them in an array using the jQuery $.each() method:
-  // $.each(checkedEl, function () {
-  //   console.log("this");
-  //   console.log(this.value);
-    // console.log($(this));
-    // selected.push($(this).val());
-  // });
-
+  console.log("*********This*********")
+  $.each(checkedEl, function () {
+    console.log("this");
+    console.log(this.value);
+    console.log($(this));
+    selected.push($(this).val());
+  });
+  console.log("*********i, elm*********")
    $.each(checkedEl, function (i, elm) {
     console.log("elm");
     console.log(elm);
@@ -40,7 +41,7 @@ function handleFormSubmit(event) {
     selected.push($(elm).val());
   });
   console.log('Toppings: ', selected.join(', '));
-  
+  console.log("*********for loop*********")
   for(var i = 0; i < checkedEl.length; i++){
     console.log("*********")
     console.log(checkedEl[i]);

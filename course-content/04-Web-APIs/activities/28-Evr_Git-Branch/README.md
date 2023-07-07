@@ -15,7 +15,7 @@ In this activity, we'll learn the concept of branching by using Git commands to 
 * Create a new directory called `git_branch_demo`. We could create a new repo in Github as well, but because we're working locally for this activity, we can skip that step and instead issue the following command:
 
   ```bash
-  mkdir git_branch_demo 
+  mkdir git_branch_demo
   ```
 
 * Now use the `cd` command to navigate into the newly created directory. Initialize an empty Git repo in the directory with the following command:

@@ -14,13 +14,6 @@ function displayMessage(type, message) {
 
 function renderLastRegistered() {
   // TODO: Retrieve the last email and password and render it to the page
-  var lastemail = localStorage.getItem("email")
-  var lastpassword = localStorage.getItem("password")
-
-  if (lastemail && lastpassword) {
-    userEmailSpan.textContent = lastemail
-    userPasswordSpan.textContent = lastpassword
-  }
 }
 
 signUpButton.addEventListener("click", function(event) {
@@ -36,9 +29,6 @@ signUpButton.addEventListener("click", function(event) {
   } else {
     displayMessage("success", "Registered successfully");
 
-  localStorage.setItem("email", email)
-  localStorage.setItem("password", password)
-
-  renderLastRegistered();
-  } 
+  // TODO: Save email and password to localStorage and render the last registered user
+  }
 });

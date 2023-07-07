@@ -48,6 +48,17 @@
 |[12-Stu_Bootstrap-Components](activities/12-Stu_Bootstrap-Components)| Bootstrap components activity |
 |[13-Ins_Bootstrap-Layout](activities/13-Ins_Bootstrap-Layout)| Introduction to Bootstrap Layout |
 |[14-Stu_Bootstrap-Layout](activities/14-Stu_Bootstrap-Layout)| Bootstrap Layout activity |
-
+|[15-Ins_Bootstrap-Utilities](activities/15-Ins_Bootstrap-Utilities)| Introduction to Bootstrap Utilities
+|[16-Stu_Bootstrap-Utilities](activities/16-Stu_Bootstrap-Utilities)| Bootstrap Utilities activity
+|[17-Ins_Bootstrap-Extend](activities/17-Ins_Bootstrap-Extend)| Bootstrap |
+|[18-Stu_Bootstrap-Extend](activities/18-Stu_Bootstrap-Extend)| Bootstrap |
+|[19-Ins_Google-Fonts](activities/19-Ins_Google-Fonts)| Introduction to Google Fonts |
+|[20-Stu_Google-Fonts](activities/20-Stu_Google-Fonts)| Google Fonts activity |
+|[21-Ins_jQuery-UI-Widgets](activities/21-Ins_jQuery-UI-Widgets)| Introduction to jQuery UI Widgets |
+|[22-Stu_jQuery-UI-Widgets](activities/22-Stu_jQuery-UI-Widgets)| jQuery UI Widgets activity |
+|[23-Ins_jQuery-UI-Interactions](activities/23-Ins_jQuery-UI-Interactions)| Introduction to jquery UI Interactions |
+|[24-Stu_jQuery-UI-Interactions](activities/24-Stu_jQuery-UI-Interactions)| jquery UI Interactions activity |
+|[25-Ins_DayJS-Format](activities/25-Ins_DayJS-Format)| Introduction to DayJs |
+|[26-Stu_DayJS-Format](activities/26-Stu_DayJS-Format)| DayJS activity |
 
 

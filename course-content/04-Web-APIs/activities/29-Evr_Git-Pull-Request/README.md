@@ -59,7 +59,7 @@ After making these changes to the new feature, you'll need to open a pull reques
 
 ![Near the top of the pull-request-demo repo page, a pink arrow points to the green "Compare & pull request" button.](images/07-create-new-pr.png)
 
-If you see this message, select the "Compare & pull request" button. If you don't see this message, don't worry! You can click on the "Pull requests" tab at the top of the sc  reen. This will take you to the pull request hub. On this page, you can open a pull request by clicking on the green "New pull request" button, like in the following image:
+If you see this message, select the "Compare & pull request" button. If you don't see this message, don't worry! You can click on the "Pull requests" tab at the top of the screen. This will take you to the pull request hub. On this page, you can open a pull request by clicking on the green "New pull request" button, like in the following image:
 
 ![Near the top-right corner of the pull request hub page, a pink circle highlights the green "New pull request" button.](images/08-new-pr.png)
 
