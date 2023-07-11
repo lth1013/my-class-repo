@@ -7,7 +7,7 @@ function getApi() {
   // We set the request URL to a variable. This is the URL that the fetch() method will use to request data. The path we are making a request to here is /orgs/nodejs/repos, as shown in the following code:
   // https://docs.github.com/en/rest/repos/repos#list-organization-repositories
   var requestUrl = 'https://api.github.com/orgs/nodejs/repos';
-
+  var thing;
   //We pass the requestUrl variable as an argument to the fetch() method, as shown in the following example:
   fetch(requestUrl)
     //We then convert the response into JSON and return the formatted response, as follows:
@@ -22,6 +22,7 @@ function getApi() {
     })
     .then(function (data) {
       console.log("data",data)
+      thing = data
       //Loop over the data to generate a table, each table row will have a link to the repo url
       for (var i = 0; i < data.length; i++) {
         // Creating elements, tablerow, tabledata, and anchor
@@ -44,6 +45,7 @@ function getApi() {
       console.log(err);
     });
     console.log("Meow");
+    console.log(thing);
 }
 
 fetchButton.addEventListener('click', getApi);
