@@ -68,30 +68,30 @@
     searchOMDB("Aquaman");
     searchOMDB("Infinity War");
 
-    // var moviesList = ["A Quiet Place","Bohemian Rhapsody", "Crazy Rich Asians", "Aquaman", "Infinity War"];
+    var moviesList = ["A Quiet Place","Bohemian Rhapsody", "Crazy Rich Asians", "Aquaman", "Infinity War"];
 
-    // var searchOMDBOneByOne = function(count, movies) {
-    //   console.log(movies[count])
-    //   var queryURL = "https://www.omdbapi.com/?t=" + movies[count] + "&y=&plot=short&apikey=trilogy";
-    //   $.ajax({
-    //     url: queryURL,
-    //     method: "GET"
-    //   }).then(function(response) {
-    //     createRow(response);
-    //     count++;
-    //     if(count < movies.length){
-    //       OneByOne(count, movies);
-    //     }
+    var searchOMDBOneByOne = function(count, movies) {
+      console.log(movies[count])
+      var queryURL = "https://www.omdbapi.com/?t=" + movies[count] + "&y=&plot=short&apikey=trilogy";
+      $.ajax({
+        url: queryURL,
+        method: "GET"
+      }).then(function(response) {
+        createRow(response);
+        count++;
+        if(count < movies.length){
+          OneByOne(count, movies);
+        }
         
-    //   });
-    // };
+      });
+    };
 
-    // function OneByOne(count = 0, movies){
-    //   console.log(movies[count])
-    //   searchOMDBOneByOne(count, movies);
-    // }
+    function OneByOne(count = 0, movies){
+      console.log(movies[count])
+      searchOMDBOneByOne(count, movies);
+    }
 
-    // OneByOne(0, moviesList);
+    OneByOne(0, moviesList);
 
   </script>
 </body>

@@ -41,4 +41,26 @@
 |[04-Stu_Create_Fetch](activities/04-Stu_Create_Fetch)| Fetch activity |
 |[05-Ins_Different_APIs](activities/05-Ins_Different_APIs)| Introduction to different APIs |
 |[06-Stu_Reverse_APIs](activities/06-Stu_Reverse_APIs)| Different APIs - activity |
+|[07-Ins_Demo_Parse](activities/07-Ins_Demo_Parse)| Introduction to JSON parsing |
+|[08-Stu_Parse_JSON](activities/08-Stu_Parse_JSON)| JSON parsing activity |
+|[09-Ins_Demo_Dynamic](activities/09-Ins_Demo_Dynamic)| Create elements dynamically |
+|[10-Stu_Demo_Dynamic](activities/10-Stu_Demo_Dynamic)| Create elements dynamically |
+|[11-Ins_Network_Activity](activities/11-Ins_Network_Activity)| Introduction to network tab in the browser |
+|[12-Stu_Network_Activity](activities/12-Stu_Network_Activity)| Explore network tab |
+|[13-Ins_Fetch_Status](activities/13-Ins_Fetch_Status)| Introduction to status code |
+|[14-Stu_Fetch_Status](activities/14-Stu_Fetch_Status)| Status code activity |
+|[15-Ins_Deconstruct_Parameters](activities/15-Ins_Deconstruct_Parameters)| Deconstruct parameters |
+|[16-Stu_Deconstruct_Parameters](activities/16-Stu_Deconstruct_Parameters)| Deconstruct parameters |
+|[17-Ins_Fetch_Options](activities/17-Ins_Fetch_Options)| Fetch - More options |
+|[18-Stu__Fetch_Options](activities/18-Stu__Fetch_Options)| Fetch - More options |
+|[19-Ins_Document_Location](activities/19-Ins_Document_Location)| Introduction to `document.location` |
+|[20-Stu_Document_Location](activities/20-Stu_Document_Location)| Activity - `document.location` |
+|[21-Ins_Review-Part-One](activities/21-Ins_Review-Part-One)| Review |
+|[22-Stu_Review-Part-One](activities/22-Stu_Review-Part-One)| Review - Activity |
+|[23-Ins_Review-Part-Two](activities/23-Ins_Review-Part-Two)| Review |
+|[24-Stu_Review-Part-Two](activities/24-Stu_Review-Part-Two)| Review - Activity |
+|[25-Stu_Git-Repo-Setup](activities/25-Stu_Git-Repo-Setup)| Repo setup |
+|[26-Evr_Git-Collaboration](activities/26-Evr_Git-Collaboration)| Git - Collaboration |
+|[27-Stu_Mini-Project](activities/27-Stu_Mini-Project)| Library of Congress Search Tool |
+
 
