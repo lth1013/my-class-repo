@@ -22,10 +22,13 @@ var formSubmitHandler = function (event) {
 var buttonClickHandler = function (event) {
   // What is `event.target` referencing?
   // TODO: Write your answer here
+  //event target is referencing the language of the specific language button which is clicked
   var language = event.target.getAttribute('data-language');
 
   // Why is this `if` block in place?
   // TODO: Write your answer here
+  //this if block is in place to sort between the different languages and make sure a language
+  //exists
   if (language) {
     getFeaturedRepos(language);
 
@@ -56,6 +59,8 @@ var getUserRepos = function (user) {
 var getFeaturedRepos = function (language) {
   // What are the query parameters doing here?
   // TODO: Write your answer here
+  // the query paramters are making sure the url is drawing from the github
+  // reposities where it is in the correct language by adding the language var to the link
   var apiUrl = 'https://api.github.com/search/repositories?q=' + language + '+is:featured&sort=help-wanted-issues';
 
   fetch(apiUrl).then(function (response) {
@@ -74,6 +79,8 @@ var displayRepos = function (repos, searchTerm) {
     repoContainerEl.textContent = 'No repositories found.';
     // What would happen if there was no `return;` here?
     // TODO: Write your answer here
+
+    //it would run the rest of the code and break the next for loop because repos.length = 0
     return;
   }
 
@@ -82,6 +89,9 @@ var displayRepos = function (repos, searchTerm) {
   for (var i = 0; i < repos.length; i++) {
     // What is the result of this string concatenation?
     // TODO: Write your answer here
+    //the strign concatentation creates the link to the repo
+    //the rest of the function styles it and adds an error icon when ther eis issues
+    //and a check icon when there is none, 
     var repoName = repos[i].owner.login + '/' + repos[i].name;
 
     var repoEl = document.createElement('div');
