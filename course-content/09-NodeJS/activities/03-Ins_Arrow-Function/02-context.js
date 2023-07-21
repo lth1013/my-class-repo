@@ -22,7 +22,7 @@ person.saySomething(); // prints "Hodor is thinking..."
  
 //The arrow function is created when saySomething is run, inside of person, 
 //right before the setTimeout is run.
-
+// const name = "Hodor";
 var person = {
   name: "Hodor",
   saySomething: function() {
@@ -41,6 +41,7 @@ person.saySomething(); // "Prints Hodor is thinking..."
 
 module.exports.context = "global";
 console.log(this);
+// {context : "global"}
 
 var obj = {
     context: "obj",

@@ -45,19 +45,19 @@ const cardedMoviePatrons = moviePatrons.map(patron => {
   return pObj;
 });
 
-const cardedMoviePatronsModified = moviePatrons.map(patron => {
-  // Copy the object being iterated over
-  // Spread Operator (what is this?)
+// const cardedMoviePatronsModified = moviePatrons.map(patron => {
+//   // Copy the object being iterated over
+//   // Spread Operator (what is this?)
   
-  // Do everything else the same
-  if (patron.age >= 17) {
-    patron.canWatchRatedR = true;
-  } else {
-    patron.canWatchRatedR = false;
-  }
-  // Be sure to return the new obj, not the parameter
-  return patron;
-});
+//   // Do everything else the same
+//   if (patron.age >= 17) {
+//     patron.canWatchRatedR = true;
+//   } else {
+//     patron.canWatchRatedR = false;
+//   }
+//   // Be sure to return the new obj, not the parameter
+//   return patron;
+// });
 
 // cardedMoviePatronsModified.push()
 

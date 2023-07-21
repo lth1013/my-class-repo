@@ -51,6 +51,19 @@
 |[14-Stu_appendFile](activities/14-Stu_appendFile)| AppendFile activity |
 |[15-Ins_Modularization](activities/15-Ins_Modularization)| Introduction to modularization |
 |[16-Stu_maths](activities/16-Stu_maths)| Implement modules |
+|[17-Ins_npm](activities/17-Ins_npm)| Introduction to `npm` |
+|[18-Stu_Package-npm](activities/18-Stu_Package-npm)| Initialize projects using `npm` |
+|[19-Ins_Inquirer-Demo](activities/19-Ins_Inquirer-Demo)| Introduction to `inquirer` |
+|[20-Stu_Inquirer-Users](activities/20-Stu_Inquirer-Users)| `Inquirer` activity |
+|[21-Ins_for-of](activities/21-Ins_for-of)| Introduction to `for-of` loops |
+|[22-Stu_for-of](activities/22-Stu_for-of)| Activity `for-of` loops |
+|[23-Ins_Rest-and-Spread](activities/23-Ins_Rest-and-Spread)| Introduction to rest and spread operators |
+|[24-Stu_Rest-and-Spread](activities/24-Stu_Rest-and-Spread)| Activity - rest and spread |
+|[25-Ins_Obj-Destructuring](activities/25-Ins_Obj-Destructuring)| Introduction to object destructuring |
+|[26-Stu_Obj-Destructuring](activities/26-Stu_Obj-Destructuring)| Object destructuring activity |
+|[27-Stu_Callback-Review](activities/27-Stu_Callback-Review)| Callback Review activity |
+|[28-Ins_Axios-Demo](activities/28-Ins_Axios-Demo)| Axios NPM Package |
+|[29-Stu_Axios](activities/29-Stu_Axios)| Axios NPM activity |
 
 
 

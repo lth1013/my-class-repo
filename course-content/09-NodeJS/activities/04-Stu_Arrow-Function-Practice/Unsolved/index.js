@@ -92,3 +92,5 @@ console.log("\nAdding a movie!\n");
 netflixQueue.addMovie("Black Swan");
 console.log("Printing movie queue!\n");
 netflixQueue.printQueue();
+
+
