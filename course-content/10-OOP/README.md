@@ -55,6 +55,12 @@
 |[18-Stu_Exception-Tests](activities/18-Stu_Exception-Tests)|  Exception Tests - activity |
 |[19-Ins_TDD](activities/19-Ins_TDD)| TDD Overview |
 |[20-Stu_TDD](activities/20-Stu_TDD)|  TDD - activity |
-
-
+|[21-Ins_Promise-Chain](activities/21-Ins_Promise-Chain)|  Introduction to Promise Chain |
+|[22-Stu_Promise-Chain](activities/22-Stu_Promise-Chain)|  Polymorphism - Promise Chain |
+|[23-Ins_Promise-Catch](activities/23-Ins_Promise-Catch)|  Introduction to Promise Catch |
+|[24-Stu_Promise-Catch](activities/24-Stu_Promise-Catch)|  Polymorphism - Promise Catch |
+|[25-Ins_Construct-Promise](activities/25-Ins_Construct-Promise)|  Introduction to Promise() Constructor |
+|[26-Stu_Construct-Promise](activities/26-Stu_Construct-Promise)|  Promise() Constructor - activity |
+|[27-Evr_Git-Stash-Pop](activities/27-Evr_Git-Stash-Pop)|  Git-Stash-Pop - activity |
+|[28-Stu_Mini-Project](activities/28-Stu_Mini-Project)|  OOP Mini Project |
 

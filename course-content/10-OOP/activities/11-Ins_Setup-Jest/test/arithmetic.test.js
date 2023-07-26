@@ -14,6 +14,8 @@ describe('Arithmetic', () => {
       expect(arithmetic.sum(2, 2)).toEqual(total);
     });
   });
+
+  
 });
 
 // A testing suite for Arithmetic is created.

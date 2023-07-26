@@ -2,9 +2,9 @@ const Blob = require('./blob');
 
 class Shape extends Blob{
   constructor(area, perimeter) {
-    // super();
-    this.area = area;
     super();
+    this.area = area;
+    // super();
     this.perimeter = perimeter;
     this.example = "I am in the Shape";
   }

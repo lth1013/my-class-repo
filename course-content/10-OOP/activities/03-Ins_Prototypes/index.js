@@ -4,6 +4,9 @@ function Dog(name, age, breed) {
   this.name = name;
   this.age = age;
   this.breed = breed;
+  // this.nap = function () {
+  //   console.log('Zzzzzzzzz');
+  // };
 }
 
 Dog.prototype.nap = function () {
@@ -11,9 +14,13 @@ Dog.prototype.nap = function () {
 };
 
 const dog = new Dog('Rex', 2, 'Bulldog');
+const dog2 = new Dog('Farley', 5, 'Bulldog');
 
 dog.nap();
+dog2.nap();
+console.log(dog);
 
+// {age : 2, breed: "Bulldog", name: "Rex": nap: ƒ ()}
 
 //===============
 

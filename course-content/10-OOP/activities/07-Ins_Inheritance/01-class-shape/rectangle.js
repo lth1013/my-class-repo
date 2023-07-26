@@ -13,6 +13,13 @@ class Rectangle extends Shape {
     this.sideB = sideB;
     this.example = "I am in the Rectangle";
   }
+
+  printInfo() {
+    // console.log(`Area: ${this.area}`);
+    // console.log(`Perimeter: ${this.perimeter}`);
+   
+      console.log("MEOW");
+  }
 }
 
 const rectangle = new Rectangle(12, 9);
@@ -21,6 +28,8 @@ rectangle.printInfo();
 
 console.log("****Rectangle Instance******");
 console.log(rectangle);
+
+
 
 
 // class Human extends Mammals {
@@ -45,3 +54,5 @@ console.log(rectangle);
 //     this.cute = false;
 //   }
 // }
+
+
