@@ -17,5 +17,24 @@ const wait = () =>
 
 // execution of the 'wait()' function promise
 wait()
-  .then((res) => console.log(res))
-  .catch((err) => console.log(err));
+  .then((res) => console.log(res))//`Success! Even number ${randNum} generated`)
+  .catch((err) => console.log(err));//`Oops! Odd number ${randNum} generated
+
+
+  const farley = () =>
+  new Promise((meow) => {
+
+    
+  
+    meow(`I Love cats`);
+        
+      
+
+  });
+
+  farley.then(function(placeholder){
+    console.log(placeholder)
+  }).catch(function(err){
+    //you will never see me
+
+  })

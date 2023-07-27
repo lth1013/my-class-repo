@@ -32,7 +32,7 @@ const practiceCoding = (studentDistracted) => {
 // Refactor to call 'practiceCoding()' and chain a 'then()' and 'catch()'
 //We call the practiceCoding() function and chain a then() to define the code that ought to run after the Promise has been resolved. Lastly, we chain a catch() to log any errors in the console
 practiceCoding(studentDistracted)
-  .then((msg) => console.log(msg))
+  .then((msg) => console.log(msg))//'We are coding in promises!'
   .catch((err) => console.error('Promise rejected:', err));
 
 

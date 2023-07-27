@@ -1,6 +1,8 @@
 // Import readFile and writeFile from the fs/promises module. The fs/promises module exports methods that return
 // promises for common file system tasks.
 const { readFile, writeFile } = require('fs/promises');
+
+// const fs = require('fs/promises');
 const BlogPost = require('./lib/blogPost');
 
 // TODO: First, call readFile to asynchronously read the data from data/post.json.

@@ -1,4 +1,6 @@
 // Constructor Arithmetic is imported.
+// https://docs.npmjs.com/cli/v7/configuring-npm/folders#executables
+// https://jestjs.io/docs/getting-started
 const Arithmetic = require('../arithmetic.js');
 
 // A testing suite for Arithmetic is created.

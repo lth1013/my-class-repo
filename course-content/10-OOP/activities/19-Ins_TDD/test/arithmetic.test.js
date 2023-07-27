@@ -9,7 +9,7 @@ describe('Arithmetic', () => {
       // Arrange
       const total = 4;
       // Act
-      const arithmetic = new Calculator(2, 2, "sum");
+      const arithmetic = new Calculator(2, 2);
       expect(arithmetic.sum()).toEqual(total);
     });
   });
@@ -23,7 +23,7 @@ describe('Arithmetic', () => {
       // Arrange
       const total = 0;
       // Act
-      const arithmetic = new Calculator(2, 2, "difference");
+      const arithmetic = new Calculator(2, 2);
       expect(arithmetic.difference()).toEqual(total);
     });
   });
@@ -37,7 +37,7 @@ describe('Arithmetic', () => {
       // Arrange
       const total = 4;
       // Act
-      const arithmetic = new Calculator(2, 2, "product");
+      const arithmetic = new Calculator(2, 2);
       expect(arithmetic.product()).toEqual(total);
     });
   });
@@ -51,7 +51,7 @@ describe('Arithmetic', () => {
       // Arrange
       const total = 1;
       // Act
-      const arithmetic = new Calculator(2, 2, "quotient");
+      const arithmetic = new Calculator(2, 2);
       // Assert
       expect(arithmetic.quotient()).toEqual(total);
     });
@@ -68,7 +68,7 @@ describe('Arithmetic', () => {
       // Arrange
       const total = 0;
       // Act
-      const arithmetic = new Calculator(2, 2, "modulus");
+      const arithmetic = new Calculator(2, 2);
       // Assert
       expect(arithmetic.modulus()).toEqual(total);
     });
@@ -85,7 +85,7 @@ describe('Arithmetic', () => {
       // Arrange
       const total = 1;
       // Act
-      const arithmetic = new Calculator(3, 2, "modulus");
+      const arithmetic = new Calculator(3, 2);
       // Assert
       expect(arithmetic.modulus()).toEqual(total);
     });
@@ -102,7 +102,7 @@ describe('Arithmetic', () => {
       // Arrange
       const total = 4;
       // Act
-      const arithmetic = new Calculator(10, 6, "modulus");
+      const arithmetic = new Calculator(10, 6);
       // Assert
       expect(arithmetic.modulus()).toEqual(total);
     });
@@ -116,10 +116,11 @@ describe('Arithmetic', () => {
   describe('Num1 and Num2 are integers', () => {
     it('should throw an error when the authorName length is less than 3', () => {
       // Arrange
-      const cb = () => new Calculator(1, "1", 'sum');
+      const cb = () => new Calculator(1, "1");
       const err = new Error('Please enter numbers for calculation');
       // Assert / Act
       expect(cb).toThrowError(err);
+      expect(cb).toThror();
     });
   });
 });

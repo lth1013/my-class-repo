@@ -15,29 +15,29 @@ inquirer
   .then((user) => console.log(user));
 
 // same thing as...
-const answersPromise = inquirer
-  .prompt({
-    type: 'input',
-    name: 'username',
-    message: 'Enter a Github Username:',
-  });
+// const answersPromise = inquirer
+//   .prompt({
+//     type: 'input',
+//     name: 'username',
+//     message: 'Enter a Github Username:',
+//   });
 
-const fetchResponsePromise = answersPromise.then((res) => {
-  return fetch(`https://api.github.com/users/${res.username}`)
-});
+// const fetchResponsePromise = answersPromise.then((res) => {
+//   return fetch(`https://api.github.com/users/${res.username}`)
+// });
 
-const convertResponseJSONtoObjectPromise = fetchResponsePromise.then(() => {
-  // fetch returns a Response object
-  // the json() method on this object returns a promise
-  // https://developer.mozilla.org/en-US/docs/Web/API/Response/json
-  return res.json(); // this is already a promise generator so...
-  // we can also do the following:
-  // res.json().then((user) => console.log(user)); 
-});
+// const convertResponseJSONtoObjectPromise = fetchResponsePromise.then(() => {
+//   // fetch returns a Response object
+//   // the json() method on this object returns a promise
+//   // https://developer.mozilla.org/en-US/docs/Web/API/Response/json
+//   return res.json(); // this is already a promise generator so...
+//   // we can also do the following:
+//   // res.json().then((user) => console.log(user)); 
+// });
 
-convertResponseJSONtoObjectPromise.then((user) => {
-  console.log(user);
-});
+// convertResponseJSONtoObjectPromise.then((user) => {
+//   console.log(user);
+// });
 
 
 

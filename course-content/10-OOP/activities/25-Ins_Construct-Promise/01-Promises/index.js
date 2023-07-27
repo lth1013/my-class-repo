@@ -81,12 +81,12 @@ beHappy("Asher").then(function(data) {
     console.log(data);
   })
   .catch(function(err) {
-    console.log(err);//this line
+    console.log(err);//this line - "So Sad you are not Farley"
   });
 
 beHappy("Farley").then(function(data) {
     console.log("*******beHappy('Farley')*******");
-    console.log(data);//this line
+    console.log(data);//this line - "So good to be Farley"
   })
   .catch(function(err) {
     console.log(err);
@@ -116,14 +116,14 @@ waitFor(2)
     console.log(err);
   });
 
-// waitFor(-2)
-//   .then(function(msg) {
-//     console.log(msg);
-//   })
-//   .catch(function(err) {
-//     console.log("Ugh!")
-//     console.log(err);
-//   });
+waitFor(-2)
+  .then(function(msg) {
+    console.log(msg);
+  })
+  .catch(function(err) {
+    console.log("Ugh!")
+    console.log(err);
+  });
 
 
 //===============End

@@ -1,6 +1,6 @@
 // Create a new Arithmetic class that behaves much like the previous demonstration.
 class Arithmetic {
-  constructor(num1, num2, operator) {
+  constructor(num1, num2) {
 
     // Checks to see that both numbers being passed in are of type number. If not, throw an error.
     if (typeof num1 !== "number" || typeof num2 !== "number") {
@@ -9,7 +9,7 @@ class Arithmetic {
     
     this.num1 = num1;
     this.num2 = num2;
-    this.operator = operator;
+ 
   }
 
   // A sum method that returns two numbers added together.
