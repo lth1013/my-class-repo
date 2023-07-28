@@ -9,18 +9,7 @@ const app = express();
 //https://expressjs.com/en/resources/middleware/body-parser.html#bodyparserurlencodedoptions
 // app.use(express.urlencoded({ extended: true }));
 // app.use(express.json());
-// {
-//   "name": "Asher",
-//   "role": "Filth Lord",
-//   "age": 3,
-//   "forcePoints": 2000
-//    "friend" : [{
-//          "name": "Farley",
-//          "role": "Furry Lord",
-//          "age": 3,
-//          "forcePoints": 2000
-//      }]
-// }
+
 
 
 app.use(express.static('public'));

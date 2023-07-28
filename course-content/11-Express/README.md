@@ -44,6 +44,21 @@
 |[07-Ins_GET-Fetch](activities/07-Ins_GET-Fetch)|Instructor: GET-Fetch|
 |[08-Stu_GET-Fetch](activities/08-Stu_GET-Fetch)|Students: Client/Server Requests Not Working|
 |[10-Stu_Static-Assets](activities/10-Stu_Static-Assets)|Students: Implement Middleware for Static Assets|
+|[11-Ins_Insomnia](activities/11-Ins_Insomnia)|Instructor: Insomnia Demo|
+|[12-Stu_Insomnia](activities/12-Stu_Insomnia)|Students: Insomnia|
+|[13-Ins_POST-Requests](activities/13-Ins_POST-Requests)| Instructor: Post Request|
+|[14-Stu_POST-Requests](activities/14-Stu_POST-Requests)|Students: Post Request|
+|[15-Ins_Body-Parsing](activities/15-Ins_Body-Parsing)| Instructor: Body Parsing|
+|[16-Stu_Body-Parsing](activities/16-Stu_Body-Parsing)|Students: Body Parsing|
+|[17-Ins_POST-Fetch](activities/17-Ins_POST-Fetch)| POST with Fetch|
+|[18-Stu_POST-Fetch](activities/18-Stu_POST-Fetch)|Students: POST with Fetch|
+|[19-Ins_Data-Persistence](activities/19-Ins_Data-Persistence)|Data Persistence with FS|
+|[20-Stu_Data-Persistence](activities/20-Stu_Data-Persistence)|Students: Data Persistence with FS|
+|[21-Ins_Modular-Routing](activities/21-Ins_Modular-Routing)|Modular Routing a Problem Presented|
+|[22-Stu_Modular-Routing](activities/22-Stu_Modular-Routing)|Students: Modular Routing with Express Router|
+|[23-Ins_Custom-Middleware](activities/23-Ins_Custom-Middleware)|Custom Middleware|
+|[24-Stu_Custom-Middleware](activities/24-Stu_Custom-Middleware)|Students: Custom Middleware|
+
 
 
 

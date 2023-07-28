@@ -6,6 +6,9 @@ const PORT = 3001;
 
 const app = express();
 
+
+
+
 // GET route to get all of the terms
 app.get('/api/terms', (req, res) => res.json(termData));
 
@@ -21,9 +24,9 @@ app.get('/api/terms', (req, res) => res.json(termData));
 //   res.send("Yo!") 
 // });
 
-// app.get('/api/terms/seo', (req, res) => {
-//   return res.json(termData[0]);
-//  });
+app.get('/api/terms/seo', (req, res) => {
+  return res.json(termData[0]);
+ });
 
 
 // GET route that returns any specific term
@@ -77,50 +80,50 @@ app.listen(PORT, () =>
 
 //Another Example
 
-// const users = [{id: 1, name: "Farley"}, {id: 2, name: "Asher"}, {id: 3, name: "Sage"}]
-// const posts = [{id: 1, userId: 1, content: "meow"}, {id: 2, userId: 3, content: "DADADA"},{id: 3, userId: 2, content: "Vroom"}]
-// app.get('/api/users', (req, res) =>{
-//   res.json(users)
-// }
-// );
+const users = [{id: 1, name: "Farley"}, {id: 2, name: "Asher"}, {id: 3, name: "Sage"}]
+const posts = [{id: 1, userId: 1, content: "meow"}, {id: 2, userId: 3, content: "DADADA"},{id: 3, userId: 2, content: "Vroom"}]
+app.get('/api/users', (req, res) =>{
+  res.json(users)
+}
+);
 
-// app.get('/api/users/:id', (req, res) =>{
-//   users.forEach(function(obj){
-//     if(obj.id === req.params.id){
-//       res.json(obj)
-//     }
-//   })  
-// });
+app.get('/api/users/:id', (req, res) =>{
+  users.forEach(function(obj){
+    if(obj.id === req.params.id){
+      res.json(obj)
+    }
+  })  
+});
 
 
-// app.get('/api/users/:id/posts', (req, res) => {
-//   const resObj = {
-//     post: []
-//   };
-//   users.forEach(function(obj){
-//     if(obj.id === req.params.id){
-//       resObj.userInfo = obj;
-//     }
-//   });
-//   posts.forEach(function(obj){ 
-//     if(obj.userId === req.params.id){
-//       resObj.post.push(obj);
-//     }
-//   });
-//   res.json(resObj); 
-// });
+app.get('/api/users/:id/posts', (req, res) => {
+  const resObj = {
+    post: []
+  };
+  users.forEach(function(obj){
+    if(obj.id === req.params.id){
+      resObj.userInfo = obj;
+    }
+  });
+  posts.forEach(function(obj){ 
+    if(obj.userId === req.params.id){
+      resObj.post.push(obj);
+    }
+  });
+  res.json(resObj); 
+});
 
-// app.get('/api/users/:id/posts/:postID', (req, res) => {
-//   const resObj = {};
-//   users.forEach(function(obj){
-//     if(obj.id === req.params.id){
-//       resObj.userInfo = obj;
-//     }
-//   });
-//   posts.forEach(function(obj){
-//     if(obj.id === req.params.postID && obj.id === req.params.id){
-//       resObj.post = obj;
-//     }
-//   });
-//   res.json(resObj);  
-// });
+app.get('/api/users/:id/posts/:postID', (req, res) => {
+  const resObj = {};
+  users.forEach(function(obj){
+    if(obj.id === req.params.id){
+      resObj.userInfo = obj;
+    }
+  });
+  posts.forEach(function(obj){
+    if(obj.id === req.params.postID && obj.id === req.params.id){
+      resObj.post = obj;
+    }
+  });
+  res.json(resObj);  
+});

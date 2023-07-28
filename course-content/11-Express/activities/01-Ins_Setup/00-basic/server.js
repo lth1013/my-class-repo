@@ -9,6 +9,7 @@ const PORT = 3000;
 
 // Routes
 app.get('/', (req, res) => {
+  console.log(req);
   res.send('Hello World');
 });
 

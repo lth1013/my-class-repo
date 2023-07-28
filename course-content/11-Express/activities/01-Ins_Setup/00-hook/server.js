@@ -8,7 +8,7 @@ const PORT = 3000;
 
 
 // Routes
-// http://localhost:3000/?t=The%20Goonies&apikey=farley
+// http://localhost:3000/?t=mean%20girls&apikey=farley
 // { t: 'mean girls', apikey: 'farley' }
 app.get('/', (req, res) => {
 	console.log("req.query: ", req.query)
