@@ -58,7 +58,10 @@
 |[22-Stu_Modular-Routing](activities/22-Stu_Modular-Routing)|Students: Modular Routing with Express Router|
 |[23-Ins_Custom-Middleware](activities/23-Ins_Custom-Middleware)|Custom Middleware|
 |[24-Stu_Custom-Middleware](activities/24-Stu_Custom-Middleware)|Students: Custom Middleware|
-
+|[25-Ins_Heroku](activities/25-Ins_Heroku)|Heroku Deploy|
+|[26-Stu_Heroku](activities/26-Stu_Heroku)|Students: Heroku Deploy|
+|[27-Evr_Git-History](activities/27-Evr_Git-History)|Students: git History|
+|[28-Stu_Mini-Project](activities/28-Stu_Mini-Project)|Students: Express Mini Project|
 
 
 

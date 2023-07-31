@@ -8,7 +8,7 @@ const PORT = 3000;
 // Allows us to reference files with their relative path
 // Example: http://localhost:3001/images/cat.jpg
 //https://expressjs.com/en/starter/static-files.html
-app.use(express.static('public'));
+// app.use(express.static('public'));
 
 //Yikes!!! Can you imagine a route for every resources!?! 
 app.get('/image', (req, res) =>
