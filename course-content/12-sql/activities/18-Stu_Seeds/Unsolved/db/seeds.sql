@@ -5,4 +5,3 @@ VALUES ("spinach", "produce"),
        ("ice cream", "frozen"),
        ("potato chips", "snacks");
        
-

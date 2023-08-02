@@ -11,3 +11,6 @@ CREATE TABLE products(
   category_name VARCHAR(30) NOT NULL
 );
 
+
+
+
