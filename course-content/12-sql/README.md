@@ -58,6 +58,12 @@
 |[20-Stu_Foreign-Primary-Key](activities/20-Stu_Foreign-Primary-Key)|Students: Foreign-Primary-Key|
 |[21-Ins_Prepared-Statements](activities/21-Ins_Prepared-Statements)|Prepared-Statements|
 |[22-Stu_Prepared-Statements](activities/22-Stu_Prepared-Statements)|Students: Prepared-Statements|
-
+|[23-Ins_COUNT-GROUPBY](activities/23-Ins_COUNT-GROUPBY)|COUNT-GROUPBY|
+|[24-Stu_COUNT-GROUPBY](activities/24-Stu_COUNT-GROUPBY)|Students: COUNT-GROUPBY|
+|[25-Ins_JOIN](activities/25-Ins_JOIN)|JOIN|
+|[26-Stu_JOIN](activities/26-Stu_JOIN)|Students: JOIN|
+|[27-Evr_Git-Cherry-Picking](activities/27-Evr_Git-Cherry-Picking)|Git-Cherry-Picking|
+|[28-Stu_Mini-Project](activities/28-Stu_Mini-Project)|Mini-Project|
+|[29-test-dataset](activities/29-test-dataset)| mySQL Dataset |
 
 
