@@ -16,12 +16,12 @@ afterConnection();
 
 function afterConnection(){
     console.log(`Connected to the courses_db database.`)
-    selectsimple();
+    // selectsimple();
     // queryAllSongs();
     // queryDanceSongs();
     // queryDanceSongsParams("Dance");
     // queryDanceSongsWhatIf("Dance; DROP table songs");
-    // queryDanceSongsSafe("Dance");
+    queryDanceSongsSafe("Dance");
     
   }
 
@@ -90,11 +90,11 @@ function queryDanceSongsSafe(genre) {
 }
 
 
-// app.get("/api/songs/:genre", function (req, res){
-//   db.query("SELECT * FROM songs WHERE genre=?", [req.params.genre], function(err, res) {
-//     for (var i = 0; i < res.length; i++) {
-//       console.log(res[i].id + " | " + res[i].title + " | " + res[i].artist + " | " + res[i].genre);
-//     }
-//   });
-// })
+app.get("/api/songs/:genre", function (req, res){
+  db.query("SELECT * FROM songs WHERE genre=?", [req.params.genre], function(err, res) {
+    for (var i = 0; i < res.length; i++) {
+      console.log(res[i].id + " | " + res[i].title + " | " + res[i].artist + " | " + res[i].genre);
+    }
+  });
+})
 

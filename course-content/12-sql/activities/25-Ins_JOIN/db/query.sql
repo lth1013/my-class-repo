@@ -65,7 +65,7 @@ FROM department
 JOIN course_names ON course_names.department = department.id;
 
 -- +--------------+-----------------+-------------------------+
--- | DepartmentID | name            | course_names                    |
+-- | DepartmentID | dept_names      | course_names            |
 -- +--------------+-----------------+-------------------------+
 -- |            1 | Web Development | Intro to JavaScript     |
 -- |            1 | Web Development | Game Design             |

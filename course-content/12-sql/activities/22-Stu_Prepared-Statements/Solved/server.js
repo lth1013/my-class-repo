@@ -23,7 +23,7 @@ const db = mysql.createConnection(
 );
 
 // Query database
-let deletedRow = 2;
+// let deletedRow = 2;
 // let deletedRow = '2;DROP Table favorite_books';
 
 // db.query(`DELETE FROM favorite_books WHERE id = ${deletedRow}`, (err, result) => {

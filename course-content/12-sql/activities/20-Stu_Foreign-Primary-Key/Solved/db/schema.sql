@@ -14,10 +14,12 @@ CREATE TABLE customer_order (
   id INT NOT NULL,
   customer_id INT,
   order_details TEXT NOT NULL,
-  PRIMARY KEY (id),
+  
   FOREIGN KEY (customer_id)
   REFERENCES customers(id)
   ON DELETE SET NULL
+
+  PRIMARY KEY (id),
 );
 
 DESCRIBE grocery_db.customer_order;
@@ -157,8 +159,38 @@ INNER JOIN authors ON books.authors_Id = authors.id;
 -- | Alice's Adventures in Wonderland | Lewis     | Carroll  |
 -- +----------------------------------+-----------+----------+
 
+
 -- show ALL books, even if we don't know the author
 -- LEFT JOIN returns all of the values from the left table, and the matching ones from the right table
+
+SELECT title, firstName, lastName
+FROM books
+INNER JOIN authors ON books.authors_Id = authors.id
+WHERE authors.firstName <> "Mark";
+
+-- +----------------------------------+-----------+----------+
+-- | title                            | firstName | lastName |
+-- +----------------------------------+-----------+----------+
+-- | Pride and Prejudice              | Jane      | Austen   |
+-- | Emma                             | Jane      | Austen   |
+-- | Alice's Adventures in Wonderland | Lewis     | Carroll  |
+-- +----------------------------------+-----------+----------+
+
+SELECT title, firstName, lastName
+FROM books
+INNER JOIN authors ON books.authors_Id = authors.id
+WHERE authors.firstName != "Mark";
+
+-- +----------------------------------+-----------+----------+
+-- | title                            | firstName | lastName |
+-- +----------------------------------+-----------+----------+
+-- | Pride and Prejudice              | Jane      | Austen   |
+-- | Emma                             | Jane      | Austen   |
+-- | Alice's Adventures in Wonderland | Lewis     | Carroll  |
+-- +----------------------------------+-----------+----------+
+
+
+
 SELECT title, firstName, lastName
 FROM books
 LEFT JOIN authors ON books.authors_Id = authors.id;
@@ -193,6 +225,89 @@ RIGHT JOIN authors ON books.authors_Id = authors.id;
 -- +----------------------------------+-----------+----------+
 
 
+SELECT * FROM books
+UNION
+SELECT * FROM authors;
+
+-- +----+----------------------------------+------------+
+-- | id | title                            | authors_id |
+-- +----+----------------------------------+------------+
+-- |  1 | Pride and Prejudice              | 1          |
+-- |  2 | Emma                             | 1          |
+-- |  3 | The Adventures of Tom Sawyer     | 2          |
+-- |  4 | Adventures of Huckleberry Finn   | 2          |
+-- |  5 | Alice's Adventures in Wonderland | 3          |
+-- |  6 | Dracula                          | NULL       |
+-- |  1 | Jane                             | Austen     |
+-- |  2 | Mark                             | Twain      |
+-- |  3 | Lewis                            | Carroll    |
+-- |  4 | Andre                            | Asselin    |
+-- +----+----------------------------------+------------+
+
+
+SELECT * FROM books
+LEFT JOIN authors ON books.authors_Id = authors.id
+UNION
+SELECT * FROM books
+RIGHT JOIN authors ON books.authors_Id = authors.id;
+
+-- +------+----------------------------------+------------+------+-----------+----------+
+-- | id   | title                            | authors_id | id   | firstName | lastName |
+-- +------+----------------------------------+------------+------+-----------+----------+
+-- |    1 | Pride and Prejudice              |          1 |    1 | Jane      | Austen   |
+-- |    2 | Emma                             |          1 |    1 | Jane      | Austen   |
+-- |    3 | The Adventures of Tom Sawyer     |          2 |    2 | Mark      | Twain    |
+-- |    4 | Adventures of Huckleberry Finn   |          2 |    2 | Mark      | Twain    |
+-- |    5 | Alice's Adventures in Wonderland |          3 |    3 | Lewis     | Carroll  |
+-- |    6 | Dracula                          |       NULL | NULL | NULL      | NULL     |
+-- | NULL | NULL                             |       NULL |    4 | Andre     | Asselin  |
+-- +------+----------------------------------+------------+------+-----------+----------+
+
+
+SELECT * FROM 
+books LEFT JOIN authors
+ON books.authors_id = authors.id
+WHERE authors.id IS NULL
+UNION
+SELECT * FROM 
+books RIGHT JOIN authors 
+ON books.authors_id = authors.id
+WHERE books.authors_id IS NULL
+UNION
+SELECT * FROM
+books INNER JOIN authors
+ON books.authors_id = authors.id;
+
+-- +------+----------------------------------+------------+------+-----------+----------+
+-- | id   | title                            | authors_id | id   | firstName | lastName |
+-- +------+----------------------------------+------------+------+-----------+----------+
+-- |    6 | Dracula                          |       NULL | NULL | NULL      | NULL     |
+-- | NULL | NULL                             |       NULL |    4 | Andre     | Asselin  |
+-- |    1 | Pride and Prejudice              |          1 |    1 | Jane      | Austen   |
+-- |    2 | Emma                             |          1 |    1 | Jane      | Austen   |
+-- |    3 | The Adventures of Tom Sawyer     |          2 |    2 | Mark      | Twain    |
+-- |    4 | Adventures of Huckleberry Finn   |          2 |    2 | Mark      | Twain    |
+-- |    5 | Alice's Adventures in Wonderland |          3 |    3 | Lewis     | Carroll  |
+-- +------+----------------------------------+------------+------+-----------+----------+
+
+
+SELECT * FROM 
+books LEFT JOIN authors
+ON books.authors_id = authors.id
+WHERE authors.id IS NULL
+UNION
+SELECT * FROM 
+books RIGHT JOIN authors 
+ON books.authors_id = authors.id
+WHERE books.authors_id IS NULL
+
+
+-- +------+---------+------------+------+-----------+----------+
+-- | id   | title   | authors_id | id   | firstName | lastName |
+-- +------+---------+------------+------+-----------+----------+
+-- |    6 | Dracula |       NULL | NULL | NULL      | NULL     |
+-- | NULL | NULL    |       NULL |    4 | Andre     | Asselin  |
+-- +------+---------+------------+------+-----------+----------+
 
 -- Another example
 
