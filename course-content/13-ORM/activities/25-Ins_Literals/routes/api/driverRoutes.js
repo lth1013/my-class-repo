@@ -16,6 +16,13 @@ router.get('/', async (req, res) => {
             ),
             'totalMileage',
           ],
+          [
+            // Use plain SQL to add up the total mileage
+            sequelize.literal(
+              '(SELECT SUM(mileage) FROM car)'
+            ),
+            'totalMileageForAll',
+          ]
         ],
       },
     });

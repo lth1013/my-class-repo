@@ -32,8 +32,11 @@ router.put('/:id', async (req, res) => {
       where: {
         id: req.params.id,
       },
-      individualHooks: true
+      // https://sequelize.org/docs/v6/other-topics/hooks/
+      // Note: methods like bulkCreate do not emit individual hooks by default - only the bulk hooks. However, if you want individual hooks to be emitted as well, you can pass the { individualHooks: true } option to the query call.
+      // individualHooks: true
     });
+
     if (!userData[0]) {
       res.status(404).json({ message: 'No user with this id!' });
       return;
