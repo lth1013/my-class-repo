@@ -42,5 +42,17 @@
 |[06-Stu_Built-In-Helpers](activities/06-Stu_Built-In-Helpers)| Built-in helpers activity |
 |[07-Ins_Data-Serialization](activities/07-Ins_Data-Serialization)| Introduction to data serialization |
 |[08-Stu_Data-Serialization](activities/08-Stu_Data-Serialization)| Data serialization activity|
-
-
+|[09-Ins_Handlebars-FE-Logic](activities/09-Ins_Handlebars-FE-Logic)| Introduction to Handlebars FE Logic |
+|[10-Stu_Handlebars-FE-Logic](activities/10-Stu_Handlebars-FE-Logic)| Handlebars FE Logic activity|
+|[11-Ins_Partials](activities/11-Ins_Partials)| Introduction to partials |
+|[12-Stu_Partials](activities/12-Stu_Partials)| Partials - activity |
+|[13-Ins_Custom-Helpers](activities/13-Ins_Custom-Helpers)| Introduction to custom helpers |
+|[14-Stu_Custom-Helpers](activities/14-Stu_Custom-Helpers)| Custom helpers - activity |
+|[15-Ins_Sessions](activities/15-Ins_Sessions)| Introduction to sessions |
+|[16-Stu_Sessions](activities/16-Stu_Sessions)| Sessions - activity |
+|[17-Ins_Cookies](activities/17-Ins_Cookies)| Introduction to cookies |
+|[18-Stu_Cookies](activities/18-Stu_Cookies)| Cookies - activity |
+|[19-Ins_Middleware](activities/19-Ins_Middleware)| Introduction to middleware |
+|[20-Stu_Middleware](activities/20-Stu_Middleware)| middleware - activity |
+|[19-Ins_Middleware](activities/19-Ins_Middleware)| Introduction to middleware |
+|[20-Stu_Middleware](activities/20-Stu_Middleware)| middleware - activity |

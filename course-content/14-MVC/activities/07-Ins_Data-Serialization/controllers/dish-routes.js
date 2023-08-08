@@ -32,6 +32,8 @@ router.get('/dish/:id', async (req, res) => {
   // The get syntax binds an object property to a function that will be called when that property is looked up. (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)
   // { plain: true } => If key is given and a field or virtual getter is present for the key it will call that getter - else it will return the value for key.
   // https://sequelize.org/v3/docs/instances/#values-of-an-instance
+  // https://sequelize.org/api/v6/class/src/model.js~model
+  // When true, the first returned value of aggregateFunction is cast to dataType and returned. If additional attributes are specified, along with group clauses, set plain to false to return all values of all returned rows. Defaults to true
   //If set to true, included instances will be returned as plain objects https://sequelize.org/master/class/lib/model.js~Model.html (https://sequelize.org/master/class/lib/model.js~Model.html)
   console.log(dish);
   // const dish = dishData.toJSON(); //- works aswell => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify#tojson_behavior
