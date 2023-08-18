@@ -29,6 +29,11 @@ const objB = {
 };
 
 objB.myFuncB();
+console.log("*************")
+const myFunc = objB.myFuncB;
+myFunc();
+
+console.log("*************")
 
 // arrow function does not have its own bindings to this 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions

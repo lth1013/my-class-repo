@@ -43,4 +43,18 @@
 |[12-Stu_Higher-Order-Functions](activities/12-Stu_Higher-Order-Functions)| Higher Order Function - activity |
 |[13-Ins_Closures](activities/13-Ins_Closures)| Introduction to Closures |
 |[14-Stu_Closures](activities/14-Stu_Closures)| Closures - activity |
+|[15-Ins_Factory-Functions](activities/15-Ins_Factory-Functions)| Introduction to Factory Functions |
+|[16-Stu_Factory-Functions](activities/16-Stu_Factory-Functions)| Factory Function - activity |
+|[17-Ins_Factory-Vs-Constructor](activitites/17-Ins_Factory-Vs-Constructor)| Factory Functions vs. Constructor Functions |
+|[18-Stu_Factory-Vs-Constructor](activitites/18-Stu_Factory-Vs-Constructor)| Factory Functions vs. Constructor Functions - activity |
+|[19-Ins_Event-Delegation-Handling](activitites/19-Ins_Event-Delegation-Handling)| Introduction to Event Delegation Handling |
+|[20-Stu_Event-Delegation-Handling](activitites/20-Stu_Event-Delegation-Handling)| Event Delegation Handling - activity |
+|[21-Ins_Linear-Search](activitites/21-Ins_Linear-Search)| Introduction to Linear Search |
+|[21-Ins_Linear-Search](activitites/21-Ins_Linear-Search)| Introduction to Linear Search |
+|[22-Stu_Linear-Search](activitites/22-Stu_Linear-Search)| Linear Search - activity |
+|[23-Ins_Recursion](activitites/23-Ins_Recursion)| Introduction to Recursion |
+|[24-Stu_Recursion](activitites/24-Stu_Recursion)| Recursion - activity |
+|[25-Ins_Binary-Search](activitites/25-Ins_Binary-Search)| Introduction to Binary Search |
+|[26-Stu_Binary-Search](activitites/26-Stu_Binary-Search)| Introduction to Binary Search |
+
 

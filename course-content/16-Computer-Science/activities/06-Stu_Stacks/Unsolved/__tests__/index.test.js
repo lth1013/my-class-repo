@@ -11,7 +11,7 @@ describe("Stack class", () => {
     expect(stack).toEqual({ container: [] });
   });
 
-  test("Can instantiate a new queue with an empty argument", () => {
+  test("Can instantiate a new stack with an empty argument", () => {
     expect(stack).toEqual({ container: [1, 2, 3, 4] });
   });
 

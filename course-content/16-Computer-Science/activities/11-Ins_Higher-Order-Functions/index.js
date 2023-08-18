@@ -53,6 +53,7 @@ function higherFun(strVal){
 }
 
 const returnFun = higherFun("Farley");
-
+const returnFunTwo = higherFun("Asher");
+console.log(returnFun);
 console.log(returnFun());//This is the value: Farley 
 
