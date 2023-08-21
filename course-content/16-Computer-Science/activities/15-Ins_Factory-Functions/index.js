@@ -11,7 +11,7 @@ function createUser(name, age, city) {
     }
     // const self = this;// LOL
     // console.log(self); //Node Global
-    // Return two inner functions.
+    // Return object with methods that have access to its surrounding scope
     return {
         introduceSelf: function() {
 
@@ -48,6 +48,6 @@ userOne.introduceSelf();
 userOne.location();
 userOne.setAge(4);
 userOne.setName("Asher");
-
+userOne.introduceSelf();
 console.log(userOne);
 

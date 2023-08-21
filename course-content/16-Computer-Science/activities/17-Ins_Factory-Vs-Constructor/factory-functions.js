@@ -61,20 +61,20 @@ decker.noise();
 decker.dry();
 
 // ********FOR VISUAL REFERENCE ********
-// const phoneCall = (state) => ({
-//   call: () => console.log(`${state.name}'s Phone: ${state.ringTone}`),
-//   takePhoto: ()=> console.log("snap snap")
+const phoneCall = (state) => ({
+  call: () => console.log(`${state.name}'s Phone: ${state.ringTone}`),
+  takePhoto: ()=> console.log("snap snap")
 
-// });
+});
 
-// const makeNoise = (state) => ({
-//   noise: () => console.log(state.noise),
-// });
+const makeNoise = (state) => ({
+  noise: () => console.log(state.noise),
+});
 
-// const drying = (state) => ({
-//   dry: () =>
-//     console.log(`Finish drying in ${state.timer} minutes. ${state.noise}`),
-// });
+const drying = (state) => ({
+  dry: () =>
+    console.log(`Finish drying in ${state.timer} minutes. ${state.noise}`),
+});
 
 // Now that we have taken a composition based approach we can now create a `Washer` function which utilizes making a phone call.
 const Washer = (name, noise, ringTone) => {

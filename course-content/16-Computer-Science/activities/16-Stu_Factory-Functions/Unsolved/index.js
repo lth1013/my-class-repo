@@ -11,10 +11,14 @@ function Student(name, gradeYear) {
         `My name is ${this.name} and I am in ${this.gradeYear} grade`
       );
     },
+    setName: function(name){
+      student.name = name
+    }
   };
 }
 
 const newStudent = Student('Dominique', '11th');
 newStudent.greet();
+newStudent.setName("Asher");
 
 module.exports = Student;
