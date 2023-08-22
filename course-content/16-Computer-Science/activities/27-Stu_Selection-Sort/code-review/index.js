@@ -42,6 +42,9 @@ function swap(items, firstIndex, secondIndex) {
 // [4,2,6,1] 
 
 
+
+
+
 function selectionSort(items) {
 
   var min;
@@ -51,7 +54,7 @@ function selectionSort(items) {
     // set index of minimum to this position
     // What is `i` being used to track?
     //
-    min = i;//3=> 6
+    min = i;//2=> 6
 
     // check the rest of the array to see if anything is smaller
     for (var j = i + 1; j < items.length; j++) {
