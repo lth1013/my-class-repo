@@ -49,7 +49,7 @@ If you have not yet done so, please refer to [MongoDB docs on downloading and in
     * In this case, only the document with the item name of `apple` will be deleted. If there happens to be more than one document with the item of `apple`, only the first one will be deleted. Don't click `enter` yet! 
 
     ```sh
-      db.collectionName.deleteOne( {"KEY": "VALUE"});
+    db.collectionName.deleteOne( {"KEY": "VALUE"});
     db.groceryCollection.deleteOne( {"item": "apple"});
     ```
 

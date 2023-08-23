@@ -45,8 +45,13 @@
 |[16-Stu_Models-Instance-Methods](activities/16-Stu_Models-Instance-Methods)| Models Instance Methods |
 |[17-Ins_Subdocuments](activities/17-Ins_Subdocuments)| Introduction - Subdocuments |
 |[18-Stu_Subdocuments](activities/18-Stu_Subdocuments)| Subdocuments |
-
-
-
-
+|[19-Ins_Aggregates](activities/19-Ins_Aggregates)| Introduction - Aggregates |
+|[20-Stu_Aggregates](activities/20-Stu_Aggregates)| Aggregates |
+|[21-Ins_Virtuals](activities/21-Ins_Virtuals)| Introduction - Virtuals |
+|[22-Stu_Virtuals](activities/22-Stu_Virtuals)| Virtuals |
+|[23-Ins_Subdoc-Population](activities/23-Ins_Subdoc-Population)| Introduction - Subdoc-Population |
+|[24-Stu_Subdoc-Population](activities/24-Stu_Subdoc-Population)| Subdoc-Population |
+|[25-Ins_CRUD-Subdoc](activities/25-Ins_CRUD-Subdoc)| Introduction - CRUD-Subdoc |
+|[26-Stu_CRUD-Subdoc](activities/26-Stu_CRUD-Subdoc)| CRUD-Subdoc |
+|[27-Stu_Mini-Project](activities/27-Stu_Mini-Project)| NoSQL Mini-Project |
 

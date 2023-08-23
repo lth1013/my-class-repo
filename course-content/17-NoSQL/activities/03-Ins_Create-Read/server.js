@@ -55,6 +55,10 @@ app.post('/create', (req, res) => {
     { name: req.body.name, breed: req.body.breed }
   )
     .then(results => res.json(results))
+    // {
+    //   "acknowledged": true,
+    //   "insertedId": "64e4410a6404bd7e377310d5"
+    // }
     .catch(err => {
       if (err) throw err;
     });
