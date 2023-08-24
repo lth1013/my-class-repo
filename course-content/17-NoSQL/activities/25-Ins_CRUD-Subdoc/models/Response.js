@@ -21,10 +21,14 @@ const responseSchema = new Schema(
     },
   },
   {
+    // https://mongoosejs.com/docs/guide.html#toJSON
+    // Mongoose will not include virtuals in the schema unless you explicitly tell it to. 
+    // As a result, we add an options object to our schema definition to tell Mongoose to include virtuals by setting the virtuals property to true.
     toJSON: {
-      getters: true,
+      virtuals: true,
     },
     id: false,
+    // id: false,//don't return the id of the 'response`
   }
 );
 

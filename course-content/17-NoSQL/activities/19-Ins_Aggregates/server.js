@@ -25,7 +25,7 @@ app.get('/sum-price', async (req, res) => {
           // https://docs.mongodb.com/manual/reference/operator/aggregation/group/#std-label-null-example
           // The following aggregation operation specifies a group _id of null, calculating the sum_price, avg_price, max_price, and min_price of all documents in the collection.
           // If you specify an _id value of null, or any other constant value, the $group stage calculates accumulated values for all the input documents as a whole. 
-            _id: null,
+          _id: null,
           // _id: "Static Value",
           // _id: { price : "$price" },
           // _id: { item : "$item" },
