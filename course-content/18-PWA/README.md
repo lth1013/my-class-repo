@@ -56,5 +56,4 @@
 |[24-Stu_IndexedDB-CRUD](activities/24-Stu_IndexedDB-CRUD)| IndexedDB-CRUD |
 |[25-Ins_Manifest](activities/25-Ins_Manifest)| Introduction - Manifest |
 |[26-Stu_Manifest](activities/26-Stu_Manifest)| Manifest |
-|[27-Stu_Mini-Project](activities/27-Stu_Mini-Project)| PWA Mini-Project |
 

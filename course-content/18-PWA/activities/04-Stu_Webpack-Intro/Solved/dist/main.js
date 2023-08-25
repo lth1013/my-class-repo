@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header */ \"./src/js/header.js\");\n// This index.js file is our entry point file\n// We import other modules and assets used in the app into this file\nconst {boxClick} = __webpack_require__(/*! ./box */ \"./src/js/box.js\");// does not work\n// import { boxClick } from './box';\n\n\n\ndocument.getElementById('boxBtn').addEventListener('click', boxClick);\ndocument.getElementById('headerBtn').addEventListener('click', _header__WEBPACK_IMPORTED_MODULE_0__.headerClick);\n\n\n//# sourceURL=webpack://04-stu_webpack-intro/./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _box__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./box */ \"./src/js/box.js\");\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header */ \"./src/js/header.js\");\n// This index.js file is our entry point file\n// We import other modules and assets used in the app into this file\n// const { boxClick } = require('./box');\n\n\n\n\ndocument.getElementById('boxBtn').addEventListener('click', _box__WEBPACK_IMPORTED_MODULE_0__.boxClick);\ndocument.getElementById('headerBtn').addEventListener('click', _header__WEBPACK_IMPORTED_MODULE_1__.headerClick);\n\n\n//# sourceURL=webpack://04-stu_webpack-intro/./src/js/index.js?");
 
 /***/ })
 
