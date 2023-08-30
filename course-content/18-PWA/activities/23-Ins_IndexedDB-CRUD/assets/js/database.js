@@ -3,7 +3,6 @@ import { openDB } from 'idb';
 const initdb = async () =>
   openDB('todos', 1, {
     upgrade(db) {
-      console.log('todos, 1 does not exists');
       if (db.objectStoreNames.contains('todos')) {
         console.log('todos database already exists');
         return;
@@ -31,7 +30,7 @@ export const postDb = async (content) => {
 
   // Get confirmation of the request.
   const result = await request;
-  console.log('🚀 - data saved to the database', result);
+  console.log('Data saved to the database', result);
 };
 
 // Export a function we will use to GET all from the database.

@@ -33,7 +33,7 @@ const matchCallback = ({ request }) => {
 // you can’t perform any asynchronous work. The reason for this is that the Router must synchronously respond to the fetch event or allow falling through to other fetch events.
 registerRoute(
   matchCallback,
-  // https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-strategies.StaleWhileRevalidate
+  // https://developer.chrome.com/docs/workbox/reference/workbox-strategies/#type-StaleWhileRevalidate
   // Resources are requested from both the cache and the network in parallel. 
   // The strategy will respond with the cached version if available, 
   // otherwise wait for the network response. 
@@ -46,7 +46,7 @@ registerRoute(
     // this strategy will always make a revalidation request, regardless of the age of the cached response.
     cacheName,
     plugins: [
-      // https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-cacheable-response.CacheableResponsePlugin
+      // https://developer.chrome.com/docs/workbox/reference/workbox-cacheable-response/#type-CacheableResponse
     // If both statuses and headers are specified, then both conditions must be met for the Response to be considered cacheable.
     // HTTP StatusCode=0 is associated with incomplete capture of a hit or page and often with a labeling of the hit as: request canceled ("ReqCancelled=Client" "ReqCancelled=Server" or "ReqCancelled=True").
       new CacheableResponsePlugin({

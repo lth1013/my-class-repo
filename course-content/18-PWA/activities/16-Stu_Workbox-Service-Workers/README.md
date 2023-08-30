@@ -26,6 +26,8 @@ Refer to the documentation:
 
 * [Interact with service workers with Chrome DevTools](https://developers.google.com/web/ilt/pwa/tools-for-pwa-developers#interact_with_service_workers_in_the_browser)
 
+* [Adding Workbox](https://webpack.js.org/guides/progressive-web-application/#adding-workbox)
+
 ## 💡 Hints
 
 * How can we use Chrome DevTools to test if our service worker is active and our app is still visible even when offline?
