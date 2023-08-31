@@ -15,6 +15,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
+  
   "devDependencies": {
     "@testing-library/react": "^14.0.0",
     "@types/react": "^18.0.28",
@@ -27,5 +28,6 @@
     "happy-dom": "^9.10.7",
     "vite": "^4.3.2",
     "vitest": "^0.30.1"
-  }
+  },
+  "notes": "🔑 Note that by default vite does not ship with a testing library. We will use vitest and will need to manually add a testing script to the package.json file. This means that if someone were to run npm run test, it will look in the package.json file and in turn run whatever is listed in the scripts section for test."
 }
