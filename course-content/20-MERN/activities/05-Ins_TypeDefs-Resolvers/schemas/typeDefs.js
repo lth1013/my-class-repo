@@ -34,3 +34,9 @@ const typeDefs = `
 `;
 
 module.exports = typeDefs;
+
+// https://www.apollographql.com/docs/apollo-server/schema/schema
+// https://www.apollographql.com/docs/apollo-server/schema/schema#scalar-types
+// The GraphQL specification includes default scalar types 
+// Int, Float, String, Boolean, and ID. 
+// These primitive types cover the majority of use cases. For more specific use cases, you can create custom scalar types.

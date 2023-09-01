@@ -34,3 +34,8 @@ const typeDefs = `
 `;
 
 module.exports = typeDefs;
+
+
+// https://www.apollographql.com/docs/apollo-server/schema/schema#field-nullability
+// https://www.apollographql.com/docs/react/pagination/key-args/
+// https://graphql.org/learn/queries/#variables

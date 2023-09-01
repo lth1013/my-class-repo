@@ -41,7 +41,19 @@
 |[12-Stu_MERN-Setup](activities/12-Stu_MERN-Setup)| Activity - M.E.R.N. Setup |
 |[13-Ins_useQuery](activities/13-Ins_useQuery)|  Introduction - useQuery |
 |[14-Stu_useQuery](activities/14-Stu_useQuery)| Activity - useQuery |
-
+|[15-Ins_Query-Variables](activities/15-Ins_Query-Variables)|  Introduction - Query Variables |
+|[16-Stu_Query-Variables](activities/16-Stu_Query-Variables)| Activity - Query Variables |
+|[17-Ins_useMutation](activities/17-Ins_useMutation)| Introduction - useMutation / Apollo Cache |
+|[18-Stu_useMutation](activities/18-Stu_useMutation)| Activity - useMutation / Apollo Cache |
+|[19-Ins_MERN-Review](activities/19-Ins_MERN-Review)| Introduction - React Router |
+|[20-Stu_MERN-Review](activities/20-Stu_MERN-Review)| Activity - React Router |
+|[21-Ins_Sign-JWT](activities/21-Ins_Sign-JWT)| Introduction - Signed Javascript Web Tokens (JWT) |
+|[22-Stu_Sign-JWT](activities/22-Stu_Sign-JWT)| Activity - Signed Javascript Web Tokens |
+|[23-Ins_Decode-JWT](activities/23-Ins_Decode-JWT)| Introduction - Decode JWT |
+|[24-Stu_Decode-JWT](activities/24-Stu_Decode-JWT)| Activity - Decode JWT |
+|[25-Ins_Resolver-Context](activities/25-Ins_Resolver-Context)| Introduction - Resolver Context |
+|[26-Stu_Resolver-Context](activities/26-Stu_Resolver-Context)| Activity - Resolver Context |
+|[27-Stu_Mini-Project](activities/27-Stu_Mini-Project)| Activity - Mini Project |
 
 
 
