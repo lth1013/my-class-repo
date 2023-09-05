@@ -33,3 +33,5 @@
 |[04-Stu_AJAXFormDelete](01-mern/04-Stu_AJAXFormDelete)| Activity - Delete books |
 |[05-google-book-search](01-mern/05-google-book-search)| Google Books Search - MERN |
 |[06-Stu_Deployment](01-mern/06-Stu_Deployment)| Deployment - MERN |
+|[07-Ins_Apollo-Cache](01-mern/07-Ins_Apollo-Cache)| Deployment - MERN |
+|[08-Stu_Apollo-Cache](01-mern/08-Stu__Apollo-Cache)| Deployment - MERN |
