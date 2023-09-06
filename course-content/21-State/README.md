@@ -36,6 +36,19 @@
 |[06-Stu_Reducers](activities/06-Stu_Reducers)| Activity - Reducers |
 |[07-Ins_Actions](activities/07-Ins_Actions)| Introduction - Actions  |
 |[08-Stu_Actions](activities/08-Stu_Actions)| Activity - Actions |
+|[09-Ins_useReducer](activities/09-Ins_useReducer)| Introduction - useReducer  |
+|[10-Stu_useReducer](activities/10-Stu_useReducer)| Activity - useReducer |
+|[11-Ins_React-Hooks-Review](activities/11-Ins_React-Hooks-Review)| Introduction - React-Hooks Review |
+|[12-Stu_React-Hooks-Review](activities/12-Stu_React-Hooks-Review)| Activity - React-Hooks Review |
+|[13-Ins_React-Router-Review](activities/13-Ins_React-Router-Review)| Introduction - React-Router Review |
+|[14-Stu_React-Router-Review](activities/14-Stu_React-Router-Review)| Activity - React-Router Review |
+|[15-Ins_Apollo-Review](activities/15-Ins_Apollo-Review)| Introduction - Apollo Review |
+|[16-Stu_Apollo-Review](activities/16-Stu_Apollo-Review)| Activity - Apollo Review |
+|[17-Ins_JWT-Review](activities/17-Ins_JWT-Review)| Introduction - JWT Review |
+|[18-Stu_JWT-Review](activities/18-Stu_JWT-Review)| Activity - JWT Review |
+|[19-Ins_useReducer-Review](activities/19-Ins_useReducer-Review)| Introduction - useReducer Review |
+|[20-Stu_useReducer-Review](activities/20-Stu_useReducer-Review)| Activity - useReducer Review |
+
 
 
 

@@ -1,15 +1,16 @@
-import React from 'react';
+// Import our custom useStudentContext hook
 import { useStudentContext } from '../utils/StudentContext';
 
 export default function StudentList() {
-  const { studentData } = useStudentContext();
+  // Assign students variable from our custom hook
+  const { students } = useStudentContext();
 
   return (
     <>
       <span>Looks good here, make sure to run the tests!</span>
       <ul>
-        {studentData.students.map((student) => (
-          <li key={student.id}>
+        {students.map((student) => (
+          <li key={student.name}>
             {student.name} : {student.major}
           </li>
         ))}

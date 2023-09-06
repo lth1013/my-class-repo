@@ -4,8 +4,6 @@ In this activity we will review passing props down the component tree in React.
 
 ## Instructions
 
-* Replace your React application's src folder with [Unsolved/src](Unsolved/src).
-
 * Install axios by running `npm install axios` in your terminal.
 
 * **Recommended:** Add the Bootstrap and Font Awesome CDNs to your application's `index.html` file:
