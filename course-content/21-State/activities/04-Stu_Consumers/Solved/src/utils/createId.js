@@ -7,9 +7,10 @@ const createId = (arr) => {
   if (arr.length) {
     // Create array of all ids currently assigned to each entry
     const ids = arr.map((e) => e.id);
-
+   
     // Sort array so that highest ID is last
     ids.sort((a, b) => a - b);
+     // [1,2,5, 10, 100]
 
     // Store highest number, plus 1, in id variable
     id = ids[ids.length - 1] + 1;

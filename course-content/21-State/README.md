@@ -48,8 +48,13 @@
 |[18-Stu_JWT-Review](activities/18-Stu_JWT-Review)| Activity - JWT Review |
 |[19-Ins_useReducer-Review](activities/19-Ins_useReducer-Review)| Introduction - useReducer Review |
 |[20-Stu_useReducer-Review](activities/20-Stu_useReducer-Review)| Activity - useReducer Review |
-
-
+|[21-Ins_Sign-JWT](activities/21-Ins_Sign-JWT)| Introduction - Signed Javascript Web Tokens (JWT) |
+|[22-Stu_Sign-JWT](activities/22-Stu_Sign-JWT)| Activity - Signed Javascript Web Tokens |
+|[23-Ins_Decode-JWT](activities/23-Ins_Decode-JWT)| Introduction - Decode JWT |
+|[24-Stu_Decode-JWT](activities/24-Stu_Decode-JWT)| Activity - Decode JWT |
+|[25-Ins_Resolver-Context](activities/25-Ins_Resolver-Context)| Introduction - Resolver Context |
+|[26-Stu_Resolver-Context](activities/26-Stu_Resolver-Context)| Activity - Resolver Context |
+|[27-Stu_Mini-Project](activities/27-Stu_Mini-Project)| Activity - Mini Project |
 
 
 

@@ -1,18 +1,14 @@
-// main.js
 const express = require('express');
 const path = require('path');
-const { clog } = require('./middleware/clog'); // Update the middleware path
+const { clog } = require('./middleware/clog');
 const api = require('./routes/index.js');
 
-const PORT = 3002;
+const PORT = 3001;
 
 const app = express();
 
-// Middleware for logging request information
-
-app.use(clog);
-
 // Middleware for parsing JSON and urlencoded form data
+// app.use('/api', api);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/api', api);

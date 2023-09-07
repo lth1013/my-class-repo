@@ -32,8 +32,9 @@ export const StudentProvider = ({ children }) => {
     const id = createId(students);
 
     // We use the spread operator to fill in the details from the student object that was passed while adding the new `id`
+    // student.id = id;
     const newStudent = { ...student, id };
-
+    
     // Update state with the students array with the newStudent
     setStudents([...students, newStudent]);
   };

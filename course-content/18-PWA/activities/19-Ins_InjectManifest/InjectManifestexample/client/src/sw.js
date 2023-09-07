@@ -46,7 +46,8 @@ registerRoute(
     // this strategy will always make a revalidation request, regardless of the age of the cached response.
     cacheName,
     plugins: [
-      // https://developer.chrome.com/docs/workbox/reference/workbox-cacheable-response/#type-CacheableResponse
+    // https://developer.chrome.com/docs/workbox/reference/workbox-cacheable-response/#type-CacheableResponse
+    // https://developer.chrome.com/docs/workbox/modules/workbox-cacheable-response/
     // If both statuses and headers are specified, then both conditions must be met for the Response to be considered cacheable.
     // HTTP StatusCode=0 is associated with incomplete capture of a hit or page and often with a labeling of the hit as: request canceled ("ReqCancelled=Client" "ReqCancelled=Server" or "ReqCancelled=True").
       new CacheableResponsePlugin({
